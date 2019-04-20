@@ -1,0 +1,61 @@
+.App {
+  display: grid;
+  height: 100%;
+  width: 100%;
+}
+
+.h2 {
+  display: grid;
+  justify-self: center;
+}
+
+.column {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  grid-column-gap: 10px;
+}
+
+.one_artist {
+  display: grid;
+  grid-column: 1 / 4;
+  text-align: center;
+}
+
+.artist_p,
+.album_p {
+  grid-column: 1 / 4;
+  justify-self: center;
+}
+
+.track_thumbnail {
+  grid-column: 2 / 4;
+  justify-self: center;
+}
+
+.img_thumbnail {
+    width: 200px;
+    height: 200px;
+}
+
+.main_nav {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.add_album {
+  display: grid;
+  justify-self: right;
+}
+
+.form_div {
+  display: grid;
+  grid-template-columns: auto;
+  width: 70%;
+}
+
+.form {
+  display: grid;
+  grid-row-gap: 10px;
+  padding: 10px;
+}
