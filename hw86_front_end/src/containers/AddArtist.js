@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {createArtist} from "../store/actions/musicActions";
 import connect from "react-redux/es/connect/connect";
-import {NavLink} from "react-router-dom";
 
 class AddArtist extends Component {
 
@@ -44,7 +43,6 @@ class AddArtist extends Component {
         return (
             <div className="form_div">
                 <div className="main_nav">
-                    <NavLink to="/">На главную</NavLink>
                 </div>
                 <div className="artist_form">
                     <h3 className="h3">Добавить артиста</h3>

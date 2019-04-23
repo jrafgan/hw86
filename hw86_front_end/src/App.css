@@ -2,6 +2,7 @@
   display: grid;
   height: 100%;
   width: 100%;
+  position: relative;
 }
 
 .h2 {
@@ -26,6 +27,10 @@
 .album_p {
   grid-column: 1 / 4;
   justify-self: center;
+}
+
+.yt_frame {
+  height: fit-content;
 }
 
 .track_thumbnail {
@@ -58,4 +63,48 @@
   display: grid;
   grid-row-gap: 10px;
   padding: 10px;
+}
+
+.nav_bar {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 40%;
+}
+
+.nav_bar2 {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  padding-left: 100px;
+}
+
+.invalid-feedback,
+.alert {
+  color: red;
+}
+
+.history_div {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  margin-bottom: 10px;
+}
+
+.yt_btn {
+  height: 20px;
+}
+
+.iframe_wrapper {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 20;
+}
+
+.yt_frame {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+
+.tracks_div {
+  color: rgb(0, 0, 238);
 }

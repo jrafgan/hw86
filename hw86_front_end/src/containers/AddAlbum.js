@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {createAlbum, getArtists} from "../store/actions/musicActions";
 import connect from "react-redux/es/connect/connect";
-import {NavLink} from "react-router-dom";
 
 class AddAlbum extends Component {
 
@@ -34,21 +33,18 @@ class AddAlbum extends Component {
     };
 
     inputChangeHandler = e => {
-        console.log(e.target.name, e.target.value);
         this.setState({
             [e.target.name]: e.target.value
         });
     };
 
     fileChangeHandler = e => {
-        console.log(e.target.name, e.target.files[0]);
         this.setState({
             [e.target.name]: e.target.files[0]
         });
     };
 
     selectChangeHandler = e => {
-        console.log(e.target.id, e.target.value);
         this.setState({
             [e.target.id]: e.target.value
         });
@@ -58,8 +54,8 @@ class AddAlbum extends Component {
 
         return (
             <div className="form_div">
+
                 <div className="main_nav">
-                    <NavLink to="/">На главную</NavLink>
                 </div>
                 <div className="album_form">
                     <h3 className="h3">Добавить альбом</h3>

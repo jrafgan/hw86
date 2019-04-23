@@ -86,163 +86,190 @@ const run = async () => {
             title: 'Аллюминевые огурцы',
             album: tsoi_45._id,
             duration: '2,56',
-            number: 1
+            number: 1,
+            youtube: 'https://www.youtube.com/embed/HtMmBXhwnog'
         },
         {
             title: 'Электричка',
             album: tsoi_45._id,
             duration: '2,34',
-            number: 2
+            number: 2,
+            youtube: 'https://www.youtube.com/embed/omwTglnuXt8'
         },
         {
             title: 'Восьмиклассница',
             album: tsoi_45._id,
             duration: '2,44',
-            number: 3
+            number: 3,
+            youtube: 'https://www.youtube.com/embed/w5jU_lVQt4o'
         },
         {
             title: 'Группа крови',
             album: tsoi_gruppa._id,
             duration: '4,44',
-            number: 1
+            number: 1,
+            youtube: 'https://www.youtube.com/embed/6C2ti3x9OAA'
         },
         {
             title: 'Закрой за мной дверь',
             album: tsoi_gruppa._id,
             duration: '4,16',
-            number: 2
+            number: 2,
+            youtube: 'https://www.youtube.com/embed/zumiGPNp9_o'
         },
         {
             title: 'Прохожий',
             album: tsoi_gruppa._id,
             duration: '3,38',
-            number: 3
+            number: 3,
+            youtube: 'https://www.youtube.com/embed/l8VsBP0lwY8'
         },
         {
             title: 'Звезда по имени Солнце',
             album: tsoi_zvezda._id,
             duration: '3,46',
-            number: 1
+            number: 1,
+            youtube: 'https://www.youtube.com/embed/GNpy6PQJpXE'
         },
         {
             title: 'Пачка сигарет',
             album: tsoi_zvezda._id,
             duration: '4,28',
-            number: 2
+            number: 2,
+            youtube: 'https://www.youtube.com/embed/v0uSOjnRm3U'
         },
         {
             title: 'Печаль',
             album: tsoi_zvezda._id,
             duration: '5,32',
-            number: 3
+            number: 3,
+            youtube: 'https://www.youtube.com/embed/gE988aZM2Cs'
         },
         {
             title: 'Ode to My Family',
             album: cranberries_no_argue._id,
             duration: '4.31',
-            number: 1
+            number: 1,
+            youtube: 'https://www.youtube.com/embed/Zz-DJr1Qs54'
         },
         {
             title: 'Zombie',
             album: cranberries_no_argue._id,
             duration: '5.07',
-            number: 2
+            number: 2,
+            youtube: 'https://www.youtube.com/embed/6Ejga4kJUts'
         },
         {
             title: 'No need to argue',
             album: cranberries_no_argue._id,
             duration: '2.54',
-            number: 3
+            number: 3,
+            youtube: 'https://www.youtube.com/embed/MEaxoSMUgXI'
         },
         {
             title: 'Animal Instinct',
             album: cranberries_bury._id,
             duration: '3.31',
-            number: 1
+            number: 1,
+            youtube: 'https://www.youtube.com/embed/ky4CdN0x58A'
         },
         {
             title: 'Loud and clear',
             album: cranberries_bury._id,
             duration: '2.45',
-            number: 2
+            number: 2,
+            youtube: 'https://www.youtube.com/embed/RZWr4Qr10YM'
         },
         {
             title: 'Linger',
             album: cranberries_bury._id,
             duration: '4.38',
-            number: 3
+            number: 3,
+            youtube: 'https://www.youtube.com/embed/G6Kspj3OO0s'
         },
         {
             title: 'All Over Now',
             album: cranberries_in_the_end._id,
             duration: '4.15',
-            number: 1
+            number: 1,
+            youtube: 'https://www.youtube.com/embed/h1lMxX8doSU'
         },
         {
-            title: 'Catch Me If You Can',
+            title: 'Wake Me When It\'s Over',
             album: cranberries_in_the_end._id,
             duration: '3.48',
-            number: 2
+            number: 2,
+            youtube: 'yks0RggaluY'
         },
         {
             title: 'In the End',
             album: cranberries_in_the_end._id,
             duration: '4.26',
-            number: 3
+            number: 3,
+            youtube: 'https://www.youtube.com/embed/TAWx6k8ZQnU'
         },
         {
             title: 'The good, the bad and the ugly',
             album: ennio_good_bad._id,
             duration: '2.38',
-            number: 1
+            number: 1,
+            youtube: 'https://www.youtube.com/embed/enuOArEfqGo'
         },
         {
             title: 'The Desert',
             album: ennio_good_bad._id,
             duration: '5.11',
-            number: 2
+            number: 2,
+            youtube: 'https://www.youtube.com/embed/1Q-kVNHwIuY'
         },
         {
             title: 'Marcia',
             album: ennio_good_bad._id,
             duration: '2.49',
-            number: 3
+            number: 3,
+            youtube: 'https://www.youtube.com/embed/jvU1dOvq608'
         },
         {
             title: 'Once Upon a Time in the West',
             album: ennio_once_upon._id,
             duration: '3.43',
-            number: 1
+            number: 1,
+            youtube: 'https://www.youtube.com/embed/we53TOJyt78'
         },
         {
             title: 'Farewell to Cheyenne',
             album: ennio_once_upon._id,
             duration: '2.37',
-            number: 2
+            number: 2,
+            youtube: 'https://www.youtube.com/embed/u5IpN3grKDI'
         },
         {
             title: 'The Transgression',
             album: ennio_once_upon._id,
             duration: '4.40',
-            number: 3
+            number: 3,
+            youtube: 'https://www.youtube.com/embed/n6Z1mBjhBm0'
         },
         {
             title: 'Theme from A Fistful of Dollars',
             album: ennio_fistful._id,
             duration: '1.48',
-            number: 1
+            number: 1,
+            youtube: 'https://www.youtube.com/embed/HjjDOdaFZg0'
         },
         {
             title: 'The Result',
             album: ennio_fistful._id,
             duration: '2.36',
-            number: 2
+            number: 2,
+            youtube: 'https://www.youtube.com/embed/o-9cShCrcwk'
         },
         {
             title: 'The Chase',
             album: ennio_fistful._id,
             duration: '2.25',
-            number: 3
+            number: 3,
+            youtube: 'https://www.youtube.com/embed/u0MdKdsoYIo'
         }
     );
 

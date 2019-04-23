@@ -17,12 +17,10 @@ class AlbumInfo extends Component {
     };
 
     render() {
-        console.log(this.props.match.params);
-        if (this.props.artist) console.log(this.props.artist);
         return (
             <div>
                 <div className="column">
-                    <Link to="/">Главная</Link>
+
                     <p className="album_p">Альбомы</p>
                     <div className="one_artist">
                     {this.props.artist ? <div className="artist_thumbnail" key={this.props.artist._id}  onClick={this.getTracks}>

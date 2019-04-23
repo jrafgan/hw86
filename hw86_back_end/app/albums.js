@@ -26,12 +26,10 @@ router.get('/', async (req, res) => {
             const result = [];
             albums.map(async (item, ndx) => {
                 if (item.artist._id == req.query.artist) {
-                    console.log('this is item title ', item.title);
                     result.push(item);
 
                     await Track.find({album: item._id}).then(function (track) {
                         item.tracks = track.length;
-                        console.log('this is track ', item.tracks);
                     });
 
                 }

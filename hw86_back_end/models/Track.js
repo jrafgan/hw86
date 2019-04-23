@@ -8,6 +8,7 @@ const TrackSchema = new Schema({
   },
   duration: String,
   number: Number,
+  youtube: String,
   album: {
     type: Schema.Types.ObjectId,
     ref: 'Album',

@@ -30,7 +30,6 @@ export const getArtist = (id) => {
         return axios.get('/artists?id=' + id).then(
             response => {
                 dispatch(fetchArtistSuccess(response.data));
-
             });
     };
 };
@@ -40,7 +39,6 @@ export const getAlbums = (artistId) => {
         return axios.get('/albums?artist=' + artistId).then(
             response => {
                 dispatch(fetchAlbumsSuccess(response.data));
-                console.log(response.data);
             });
     };
 };
@@ -50,7 +48,7 @@ export const getAlbum = (id) => {
         return axios.get('/albums/' + id).then(
             response => {
                 dispatch(fetchAlbumSuccess(response.data));
-                console.log(response.data);
+
             });
     };
 };
@@ -78,7 +76,6 @@ export const getTracksByAlbum = (albumId) => {
         return axios.get('/tracks?album='+albumId).then(
             response => {
                 dispatch(fetchTracksSuccess(response.data));
-                console.log(response.data)
             });
     };
 };
